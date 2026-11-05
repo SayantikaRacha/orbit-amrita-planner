@@ -1,0 +1,19 @@
+# Dependencies and builds
+node_modules/
+dist/
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+
+# Logs and local tooling
+*.log
+.DS_Store
+.vite/
+coverage/
+outputs/
+work/
+
+# Local Supabase state
+supabase/.temp/
